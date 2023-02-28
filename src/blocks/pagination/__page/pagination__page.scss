@@ -1,0 +1,14 @@
+.pagination__page {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 10px;
+    &:last-child {
+        margin-right: 0px;
+    }
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        transition: .3s;
+    }
+}

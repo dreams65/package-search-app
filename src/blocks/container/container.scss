@@ -1,0 +1,13 @@
+.container {
+    width: -webkit-fill-available;
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .container{
+        padding: 0 15px;
+    }
+    
+}

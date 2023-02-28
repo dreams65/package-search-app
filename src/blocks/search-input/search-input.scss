@@ -1,0 +1,11 @@
+.search-input {
+    padding: 10px;
+    width: 250px;
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .search-input {
+        width: -webkit-fill-available;
+    }
+}
